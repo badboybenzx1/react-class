@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/badboybenzx1/react-class/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/badboybenzx1/react-class/static/js/main.6ad4154d.chunk.js",
+    "main.js.map": "/badboybenzx1/react-class/static/js/main.6ad4154d.chunk.js.map",
+    "runtime-main.js": "/badboybenzx1/react-class/static/js/runtime-main.64a17a34.js",
+    "runtime-main.js.map": "/badboybenzx1/react-class/static/js/runtime-main.64a17a34.js.map",
+    "static/js/2.ee6ba89a.chunk.js": "/badboybenzx1/react-class/static/js/2.ee6ba89a.chunk.js",
+    "static/js/2.ee6ba89a.chunk.js.map": "/badboybenzx1/react-class/static/js/2.ee6ba89a.chunk.js.map",
+    "static/js/3.de477b57.chunk.js": "/badboybenzx1/react-class/static/js/3.de477b57.chunk.js",
+    "static/js/3.de477b57.chunk.js.map": "/badboybenzx1/react-class/static/js/3.de477b57.chunk.js.map",
+    "index.html": "/badboybenzx1/react-class/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/badboybenzx1/react-class/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.ee6ba89a.chunk.js.LICENSE.txt": "/badboybenzx1/react-class/static/js/2.ee6ba89a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/badboybenzx1/react-class/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64a17a34.js",
+    "static/js/2.ee6ba89a.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.6ad4154d.chunk.js"
+  ]
+}
