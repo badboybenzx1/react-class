@@ -7,11 +7,6 @@ const Form = (props) => {
 
   const onChangeData = (value) => setName(value);
 
-  const onKey = (e) => {
-    //   debugger
-    console.log(e);
-  };
-
   const onClickData = () => setName("Hi ~~~~" + name);
 
   return (
@@ -21,7 +16,6 @@ const Form = (props) => {
       <input
         type="text"
         placeholder="input your name"
-        onKeyPress={(e) => onKey(e)}
         onChange={(e) => onChangeData(e.target.value)}
       ></input>
 
@@ -48,8 +42,6 @@ const Form = (props) => {
         Name:
         <span style={{ fontWeight: "bold" }}> {name}</span>
       </p>
-
-      {/* <Divider dashed /> */}
     </div>
   );
 };

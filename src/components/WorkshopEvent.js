@@ -9,7 +9,6 @@ const WorkshopEvent = (props) => {
   const [name, setName] = useState();
 
   const logValue = (value) => {
-    console.log(value);
     setName(value);
   };
 

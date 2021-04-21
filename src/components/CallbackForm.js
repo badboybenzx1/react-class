@@ -4,7 +4,6 @@ const CallbackForm = (props) => {
   const inputNameRef = useRef(null);
 
   const onClickData = () => {
-    console.log(inputNameRef.value);
     props.onCallback("Hi ~~~~" + inputNameRef.current.value);
   };
 
