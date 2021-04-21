@@ -9,7 +9,7 @@ const Remaining = (props) => {
   return (
     <div>
       <p>
-        {remainingTask} out of {props.reminders.length} tasks
+        {remainingTask} remaining out of {props.reminders.length} tasks
       </p>
     </div>
   );

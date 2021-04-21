@@ -8,7 +8,9 @@ const Reminders = (props) => {
       className={reminder.isDone ? "is-done" : ""}
       onClick={(e) => props.onClickDone(index)}
     >
-      <strong style={{ cursor: "pointer" }}>{reminder.name}</strong>
+      <strong style={{ cursor: "pointer", userSelect: "none" }}>
+        {reminder.name}
+      </strong>
     </li>
   ));
 

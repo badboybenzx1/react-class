@@ -18,23 +18,23 @@ function App() {
         <Content style={{ margin: "60px", textAlign: "center" }}>
           <div>
             <Row>
-              <Col span={8}>
+              <Col xs={24} md={8}>
                 <Workshop2></Workshop2>
               </Col>
 
-              <Col span={8}>
+              <Col xs={24} md={8}>
                 <WorkshopForm></WorkshopForm>
               </Col>
 
-              <Col span={8}>
+              <Col xs={24} md={8}>
                 <WorkshopList></WorkshopList>
               </Col>
 
-              <Col span={8}>
+              <Col xs={24} md={8}>
                 <WorkshopEvent></WorkshopEvent>
               </Col>
 
-              <Col span={16}>
+              <Col xs={24} md={16}>
                 <DayOneQuiz></DayOneQuiz>
               </Col>
             </Row>
