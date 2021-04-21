@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Layout, Row, Col } from "antd";
+
+import Workshop2 from "./components/Workshop2";
+import WorkshopForm from "./components/WorkshopForm";
+import WorkshopList from "./components/WorkshopList";
+import WorkshopEvent from "./components/WorkshopEvent";
+
+const { Header, Content } = Layout;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout style={{ height: "100vh", overflow: "scroll" }}>
+        <Header style={{ color: "#fff" }}>React Class</Header>
+
+        <Content style={{ margin: "60px", textAlign: "center" }}>
+          <div>
+            <Row>
+              <Col span={8}>
+                <Workshop2></Workshop2>
+              </Col>
+              <Col span={8}>
+                <WorkshopForm></WorkshopForm>
+              </Col>
+              <Col span={8}>
+                <WorkshopList></WorkshopList>
+              </Col>
+              <Col span={8}>
+                <WorkshopEvent></WorkshopEvent>
+              </Col>
+            </Row>
+          </div>
+        </Content>
+      </Layout>
     </div>
   );
 }
